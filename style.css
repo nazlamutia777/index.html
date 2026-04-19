@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d2b48c; /* coklat susu */
+}
+
+/* NAVBAR */
+.navbar {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+}
+
+.menu a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: khaki;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+/* KIRI */
+.left {
+    width: 50%;
+}
+
+.welcome {
+    letter-spacing: 3px;
+}
+
+.left h1 {
+    color: khaki;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.desc {
+    max-width: 500px;
+}
+
+/* LIST */
+ul li {
+    background: #f5e6ca;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+/* KANAN FOTO */
+.right img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* TABEL */
+.table-section {
+    padding: 50px;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    background: #fff8dc;
+}
